@@ -1,0 +1,52 @@
+.sub-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn {
+    margin-top: 10px;
+  }
+  
+  .edit-btn {
+    margin-left: 10px;
+  }
+  
+  .delete-btn {
+    background-color: green;
+  }
+
+  .bio-editPageButton-container{
+    display: flex;
+    background-color: transparent;
+    text-align: left;
+    width: 100%;
+  }
+
+  .text-bubble {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-bubble::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -10px; /* Half of the bubble height */
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #007bff transparent transparent;
+  }

@@ -1,0 +1,40 @@
+.alabala {
+    position: relative;
+  }
+  
+.delete-container {
+position: absolute;
+top: 0;
+right: 0;
+padding: 5px;
+z-index: 35;
+}
+  
+.delete-button {
+color: black;
+}
+.pics{
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+.vid{
+  width: 100%;
+  height: auto;
+}
+
+
+.pics:hover{
+
+    filter: opacity(.8)
+}
+
+.delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+
